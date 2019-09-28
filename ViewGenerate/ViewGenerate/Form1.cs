@@ -29,7 +29,7 @@ namespace ViewGenerate
             this.saveFileDialog1.DefaultExt = ".cs";
             this.saveFileDialog1.ShowDialog();
             string pathArchivo = saveFileDialog1.FileName;
-            Funcion.GuardarValoresIngresados(pathArchivo);
+            Funcion.SaveFile(pathArchivo);
         }
     }
 }
